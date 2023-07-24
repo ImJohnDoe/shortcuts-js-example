@@ -1,0 +1,15 @@
+{
+  "name": "lmshortcuts",
+  "version": "1.0.0",
+  "description": "create shortcuts using a language model",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js && shortcuts sign -i 'HelloTwitter.shortcut' -o 'HelloTwitter.shortcut'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "romechenko",
+  "license": "ISC",
+  "dependencies": {
+    "@joshfarrant/shortcuts-js": "^0.6.0"
+  }
+}
